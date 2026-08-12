@@ -1,16 +1,4 @@
-# 手眼标定项目依赖
-# 安装: pip install -r requirements.txt
-
-# 相机标定 (Charuco) & 图像处理
-opencv-contrib-python>=4.8.0
-
-# 数值计算
-numpy
-
-# 刚体变换 (Rotation, SE3)
-scipy
-
-# === 仅在仿真环境(MuJoCo)中使用 ===
-# 如果只做真实机器人标定,可跳过以下两个
-mujoco>=3.2.0
-# pynput
+mujoco==3.10.0
+numpy==1.26.4
+opencv-contrib-python==4.9.0.80
+pynput==1.8.2
