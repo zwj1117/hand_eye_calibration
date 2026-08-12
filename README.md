@@ -7,7 +7,7 @@
 ## 依赖
 
 ```bash
-pip install opencv-contrib-python numpy
+pip install -r requirements.txt
 ```
 
 > **注意：** 必须安装 `opencv-contrib-python` 而不是 `opencv-python`，因为 ArUco/ChArUco 模块在 contrib 包中。
