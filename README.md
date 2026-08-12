@@ -1,6 +1,6 @@
 # ChArUco 标定工具使用说明
 
-本目录包含基于 OpenCV ChArUco 的相机标定工具，主要由 `generate_charuco.py`（生成标定板）和 `charucoCalibrate/aruco.py`（标定代码）两个模块组成。
+本目录包含基于 OpenCV ChArUco 的相机标定工具，主要由 `generate_charuco_board.py`（生成标定板）和 `hand_eye_calibration.py`（标定代码）两个模块组成。
 
 ---
 
