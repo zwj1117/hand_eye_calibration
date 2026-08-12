@@ -10,12 +10,6 @@ numpy
 # 刚体变换 (Rotation, SE3)
 scipy
 
-# RealSense 深度相机
-pyrealsense2
-
-# YAML 配置文件
-PyYAML
-
 # === 仅在仿真环境(MuJoCo)中使用 ===
 # 如果只做真实机器人标定,可跳过以下两个
 mujoco>=3.2.0
